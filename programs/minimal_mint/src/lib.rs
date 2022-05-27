@@ -4,7 +4,7 @@ use {
     context::*,
     borsh::{BorshSerialize, BorshDeserialize},
 };
-use rand::{Rng, SeedableRng};
+use rand::{SeedableRng};
 use rand::rngs::SmallRng;
 use rand::RngCore;
 pub mod context;
@@ -12,7 +12,7 @@ pub mod error;
 pub mod state;
 pub mod utils;
 
-declare_id!("3VUoRwv1gFUv2LYZQqSvML2ZSee9zYC7ZsPseozRGwr4");
+declare_id!("H44emowkZoAMSBhDNLuUrHTowe2z9h4X6VXv5SgBhhF9");
 
 #[program]
 pub mod minimal_mint {

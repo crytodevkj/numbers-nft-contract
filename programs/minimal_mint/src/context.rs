@@ -63,7 +63,7 @@ pub struct InitializeCandyMachine<'info> {
         space =
             8  +  // discriminator
                   // \/ candy_machine
-            8  + 8 + 8 + (40 * 2 /* multiply by n of creators */) + 8 + 2 + 9 + 40 * 130 +
+            8  + 8 + 8 + (40 * 2 /* multiply by n of creators */) + 8 + 2 + 9 + 50 * 130 +
             32 +  // authority
             32 +  // start date
             1,   // bump + bonus

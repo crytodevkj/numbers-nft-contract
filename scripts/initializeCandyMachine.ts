@@ -23,7 +23,7 @@ const wallet = new Wallet(web3.Keypair.fromSecretKey(
 
 console.log('wallet:',wallet.publicKey.toString())
 
-const PROGRAM_ID = new PublicKey('3VUoRwv1gFUv2LYZQqSvML2ZSee9zYC7ZsPseozRGwr4');
+const PROGRAM_ID = new PublicKey('zePUF2vZSV99nR9NbtidLTfucSwPhXRRXcSTmzssJPX');
 
 const creator1 = new PublicKey('7EGWwj35r6sd4ERZMU2CGoTFL1ZuoUNup8DhxFyr6UPf');
 const creator2 = new PublicKey('5j9CpZqxAVpHLk7Zp1y84UuDZ5Yu63mgJuNCxxtwEkWc');

@@ -19,5 +19,5 @@ export const candyMachine = new PublicKey(
 )
 
 export const programId = new PublicKey(
-  '3VUoRwv1gFUv2LYZQqSvML2ZSee9zYC7ZsPseozRGwr4'
+  'H44emowkZoAMSBhDNLuUrHTowe2z9h4X6VXv5SgBhhF9'
 )
