@@ -23,7 +23,7 @@ const wallet = new Wallet(web3.Keypair.fromSecretKey(
 
 console.log('wallet:',wallet.publicKey.toString())
 
-const PROGRAM_ID = new PublicKey('2ecFv3DUdfTsmX99Q2ZRgqTyc8yUGLXaUEByqBXDeyFG');
+const PROGRAM_ID = new PublicKey('7KSeMoygViHpaL2wztV4DenBK4kTdsFbqkiSFwiDxnEU');
 
 const creator1 = new PublicKey('7EGWwj35r6sd4ERZMU2CGoTFL1ZuoUNup8DhxFyr6UPf');
 const creator2 = new PublicKey('5j9CpZqxAVpHLk7Zp1y84UuDZ5Yu63mgJuNCxxtwEkWc');
@@ -34,12 +34,8 @@ const initializeCandyMachine = async () => {
     [Buffer.from(PREFIX)],
     PROGRAM_ID
   )
-  let urls = []
-  for (let i = 0; i < 333; ++i) {
-    urls = [...urls, ...tokenUris]
-  }
-  urls = [...urls, tokenUris[0],tokenUris[1],tokenUris[2]]
-  console.log('url length:',urls.length)
+  let urls = [tokenUris[0], tokenUris[1], tokenUris[2]]
+  console.log('url length:',urls)
 
   const params = {
     price: new BN(10000000),
@@ -51,7 +47,7 @@ const initializeCandyMachine = async () => {
     ],
     symbol: 'NUM',
     sellerFeeBasisPoints: 500, // 500 = 5%
-    maxSupply: new BN(3333),
+    maxSupply: new BN(3),
     tokenUris: urls
   }
 

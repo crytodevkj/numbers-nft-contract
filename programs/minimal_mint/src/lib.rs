@@ -84,7 +84,7 @@ pub mod minimal_mint {
         /* increment the counter of total mints by 1 */
         let mut small_rng = SmallRng::seed_from_u64(0);
         let rand_num = small_rng.next_u64();
-        let index = rand_num % (3333 - candy_machine.data.nfts_minted);
+        let index = rand_num % (3 - candy_machine.data.nfts_minted);
         let nft_uri = candy_machine.data.token_uris[index as usize].clone();
         let nft_name = format!("Number {}", index); //"Number " + index.to_string();
         candy_machine.data.token_uris.remove(index as usize);
