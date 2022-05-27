@@ -15,9 +15,9 @@ export const PREFIX = 'number'
 
 /* replace the following with your own pubkeys */
 export const candyMachine = new PublicKey(
-  '3VsRjhe4okggS5niKWyQw52KTAZqzwSGmb2dqXAGkcEh'
+  '4XQxE8wiKXdPs1wmEgWLYHHh5FFPAgMt8Rvx2FNdcjbm'
 )
 
 export const programId = new PublicKey(
-  '7KSeMoygViHpaL2wztV4DenBK4kTdsFbqkiSFwiDxnEU'
+  '3VUoRwv1gFUv2LYZQqSvML2ZSee9zYC7ZsPseozRGwr4'
 )

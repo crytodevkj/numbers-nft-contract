@@ -12,7 +12,7 @@ pub mod error;
 pub mod state;
 pub mod utils;
 
-declare_id!("7KSeMoygViHpaL2wztV4DenBK4kTdsFbqkiSFwiDxnEU");
+declare_id!("3VUoRwv1gFUv2LYZQqSvML2ZSee9zYC7ZsPseozRGwr4");
 
 #[program]
 pub mod minimal_mint {
